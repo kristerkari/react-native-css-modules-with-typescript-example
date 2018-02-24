@@ -1,0 +1,6 @@
+.wrapper {
+  background-color: #fff;
+  padding: 30px;
+  flex: 1;
+  flex-direction: column;
+}

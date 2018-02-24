@@ -1,0 +1,92 @@
+.profileOuter {
+  width: 275px;
+  height: 363px;
+  overflow: hidden;
+  background-color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.profileWrapper {
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  width: 275px;
+  height: 363px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+}
+
+.body {
+  padding: 1.25rem;
+}
+
+.backgroundImg {
+  width: 275px;
+  height: 150px;
+}
+
+.profileImg {
+  width: 100px;
+  height: 100px;
+  max-width: 100px;
+  margin-top: -70px;
+  margin-bottom: 5px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  border-width: 3px;
+  border-color: #fff;
+  border-radius: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nameWrapper {
+  margin-bottom: 5px;
+}
+
+.name {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #212529;
+  text-align: center;
+}
+
+.descriptionWrapper {
+  margin-bottom: 1.5rem;
+}
+
+.description {
+  text-align: center;
+  color: #212529;
+}
+
+.stats {
+  flex: 1;
+  flex-direction: row;
+  flex-grow: 1;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+}
+
+.statsLeft {
+  padding: 0 10px;
+  border-right-color: #d4dbe0;
+  border-right-width: 1px;
+  height: 38px;
+}
+
+.statsRight {
+  padding: 0 10px;
+}
+
+.statsText {
+  text-align: center;
+  color: #212529;
+}
+
+.statsTextBold {
+  font-weight: bold;
+}
