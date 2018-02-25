@@ -7,20 +7,21 @@ A simple example app that shows how you can use CSS modules + Typescript with Re
 Have a look at the `src` folder to see code examples.
 
 Have a look at the documentation if you want to add React Native CSS modules to your own project:
-https://github.com/kristerkari/react-native-css-modules
+[React Native CSS modules](https://github.com/kristerkari/react-native-css-modules)
 
 ## Example App features
 
-* Uses [Webpack](https://webpack.js.org/) + [CSS modules](https://github.com/css-modules/css-modules) for the web version. Uses a few tools to transform CSS modules syntax to [React Native style objects](https://facebook.github.io/react-native/docs/style.html).
-* Uses [React Native for Web](https://github.com/necolas/react-native-web) to make most React Native elements work in the browser.
+* React Native: uses [React Native CSS modules](https://github.com/kristerkari/react-native-css-modules)
+* Web: uses [Webpack](https://webpack.js.org/) + [CSS modules](https://github.com/css-modules/css-modules).
+* Web: uses [React Native for Web](https://github.com/necolas/react-native-web) to make most React Native elements work in the browser.
 * [Uses custom `@types/react-native` package with className support](https://github.com/kristerkari/react-native-types-for-css-modules).
 * Automatically generates Typescript types for CSS files using Webpack [typings-for-css-modules-loader](https://github.com/Jimdo/typings-for-css-modules-loader).
 * Allows you to use both `className={myStyles.myClass}` and `style={{ color: "red" }}` properties on React Native elements such as `<Text>` or `<View>`.
 * [Supports two syntaxes for using multiple classes](https://github.com/kristerkari/babel-plugin-react-native-classname-to-style#multiple-classes) that work with React Native CSS modules and regular CSS modules.
-* It uses [Sass](src/Buttons.scss) and [CSS](src/ProfileCard.css) for styles, but you can choose which one to use.
+* Uses [Sass](src/Buttons.scss) and [CSS](src/ProfileCard.css) for styles, but you can choose which one to use.
 * You can use platform specific file extensions, e.g. `styles.ios.scss`, `styles.android.scss`, `styles.native.scss`.
 * CSS Hot reloading for both React Native and Web
-* [Stylelint rules for React Native styling](https://github.com/kristerkari/stylelint-config-react-native-css-modules)
+* [Uses Stylelint config for React Native CSS modules](https://github.com/kristerkari/stylelint-config-react-native-css-modules)
 
 ## Setup
 
