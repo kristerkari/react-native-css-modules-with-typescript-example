@@ -7,7 +7,8 @@ A simple example app that shows how you can use CSS modules + Typescript with Re
 Have a look at the `src` folder to see code examples.
 
 Have a look at the documentation if you want to add React Native CSS modules to your own project:
-[React Native CSS modules](https://github.com/kristerkari/react-native-css-modules)
+
+* [React Native CSS modules](https://github.com/kristerkari/react-native-css-modules)
 
 ## Example App features
 
