@@ -14,7 +14,7 @@ Have a look at the documentation if you want to add React Native CSS modules to 
 * React Native: uses [React Native CSS modules](https://github.com/kristerkari/react-native-css-modules)
 * Web: uses [Webpack](https://webpack.js.org/) + [CSS modules](https://github.com/css-modules/css-modules).
 * Web: uses [React Native for Web](https://github.com/necolas/react-native-web) to make most React Native elements work in the browser.
-* [Uses custom `@types/react-native` package with className support](https://github.com/kristerkari/react-native-types-for-css-modules).
+* [Uses custom Typescript `@types/react-native` package with className support](https://github.com/kristerkari/react-native-types-for-css-modules).
 * Automatically generates Typescript types for CSS files using Webpack [typings-for-css-modules-loader](https://github.com/Jimdo/typings-for-css-modules-loader).
 * Allows you to use both `className={myStyles.myClass}` and `style={{ color: "red" }}` properties on React Native elements such as `<Text>` or `<View>`.
 * [Supports two syntaxes for using multiple classes](https://github.com/kristerkari/babel-plugin-react-native-classname-to-style#multiple-classes) that work with React Native CSS modules and regular CSS modules.
