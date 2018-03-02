@@ -20,7 +20,7 @@ module.exports = {
     new webpack.HotModuleReplacementPlugin(),
   ],
   module: {
-    loaders: [
+    rules: [
       {
         test: /\.ts(x?)$/,
         exclude: /node_modules/,
