@@ -1,5 +1,7 @@
 # React Native + CSS modules + Typescript example
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/kristerkari/react-native-css-modules-with-typescript-example.svg)](https://greenkeeper.io/)
+
 <img src="images/react-native-logo.png" width="160"><img src="images/plus.svg" width="100"><img src="images/css-modules-logo.svg" width="170"><img src="images/plus.svg" width="100"><img src="images/typescript-logo.svg" width="170">
 
 A simple example app that shows how you can use CSS modules + Typescript with React Native and React (for browser).
