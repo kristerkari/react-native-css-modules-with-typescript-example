@@ -15,7 +15,7 @@
     "react": "16.2.0",
     "react-dom": "^16.2.0",
     "react-fontawesome": "^1.6.1",
-    "react-native": "0.53.3",
+    "react-native": "0.54.0",
     "react-native-fontawesome": "^5.7.0",
     "react-native-web": "^0.5.1",
     "tslib": "^1.9.0"
