@@ -1,5 +1,6 @@
 declare module "react-native-fontawesome" {
+  import { TextProperties } from "react-native";
   export const Icons: { [key: string]: string };
-  const FontAwesome: React.ComponentClass<any>;
-  export default FontAwesome;
+  const Icon: React.ComponentClass<TextProperties>;
+  export default Icon;
 }
