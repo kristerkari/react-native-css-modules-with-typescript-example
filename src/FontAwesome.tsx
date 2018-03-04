@@ -1,6 +1,10 @@
 import * as React from "react";
 import Fa from "react-fontawesome";
 
-export const FontAwesome = props => {
+interface FontAwesomeProps {
+  name: string;
+}
+
+export const FontAwesome = (props: FontAwesomeProps) => {
   return <Fa name={props.name} />;
 };

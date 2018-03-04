@@ -21,8 +21,8 @@
     "tslib": "^1.9.0"
   },
   "devDependencies": {
-    "@types/react-native":
-      "kristerkari/react-native-types-for-css-modules#v0.52.16",
+    "@types/react-fontawesome": "^1.6.2",
+    "@types/react-native": "kristerkari/react-native-types-for-css-modules#v0.52.16",
     "autoprefixer": "^8.1.0",
     "babel-jest": "22.4.1",
     "babel-loader": "^7.1.3",

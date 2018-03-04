@@ -5,13 +5,16 @@ import { View, TouchableHighlight, Text } from "react-native";
 import { titleCase } from "./utils/titleCase";
 
 const colors = ["green", "pink", "dark", "orange", "red", "black"];
+const stylesIndexSignature: { [index: string]: string } = styles;
 
 const Button = (color: string, index: number) => {
+  const button = "button" + titleCase(color);
+  const icon = "icon" + titleCase(color);
   return (
     <View className={styles.buttonWrapper} key={index}>
-      <TouchableHighlight className={styles["button" + titleCase(color)]}>
+      <TouchableHighlight className={stylesIndexSignature[button]}>
         <View className={styles.innerWrapper}>
-          <View className={styles["icon" + titleCase(color)]}>
+          <View className={stylesIndexSignature[icon]}>
             <Text className={styles.iconText}>
               <FontAwesome name="pencil" />
             </Text>

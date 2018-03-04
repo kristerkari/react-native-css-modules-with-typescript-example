@@ -9,7 +9,7 @@
     "jsx": "react-native", // this needs to be react-native for styling to work
     "allowSyntheticDefaultImports": true,
     "noFallthroughCasesInSwitch": true,
-    "noImplicitAny": false,
+    "noImplicitAny": true,
     "noImplicitReturns": true,
     "noImplicitThis": true,
     "pretty": true,

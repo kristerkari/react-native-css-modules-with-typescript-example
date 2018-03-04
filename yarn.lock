@@ -31,6 +31,12 @@
   version "0.7.0"
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-0.7.0.tgz#9a06f4f137ee84d7df0460c1fdb1135ffa6c50fd"
 
+"@types/react-fontawesome@^1.6.2":
+  version "1.6.2"
+  resolved "https://registry.yarnpkg.com/@types/react-fontawesome/-/react-fontawesome-1.6.2.tgz#ca021892bd68e50e817b12f0d083a6086093da11"
+  dependencies:
+    "@types/react" "*"
+
 "@types/react-native@kristerkari/react-native-types-for-css-modules#v0.52.16":
   version "0.52.16"
   resolved "https://codeload.github.com/kristerkari/react-native-types-for-css-modules/tar.gz/52faf11a9202972319bf19ffc628cc98ffb2ee97"
