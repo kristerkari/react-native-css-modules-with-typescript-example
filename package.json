@@ -22,7 +22,7 @@
   },
   "devDependencies": {
     "@types/react-native":
-      "kristerkari/react-native-types-for-css-modules#v0.52.13",
+      "kristerkari/react-native-types-for-css-modules#v0.52.16",
     "autoprefixer": "^8.1.0",
     "babel-jest": "22.4.1",
     "babel-loader": "^7.1.3",
