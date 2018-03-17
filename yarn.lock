@@ -372,9 +372,9 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react-native@kristerkari/react-native-types-for-css-modules#v0.52.16":
-  version "0.52.16"
-  resolved "https://codeload.github.com/kristerkari/react-native-types-for-css-modules/tar.gz/52faf11a9202972319bf19ffc628cc98ffb2ee97"
+"@types/react-native@kristerkari/react-native-types-for-css-modules#v0.52.18":
+  version "0.52.18"
+  resolved "https://codeload.github.com/kristerkari/react-native-types-for-css-modules/tar.gz/fb1d639394ef88d668ea02c07d861aec8adef873"
   dependencies:
     "@types/react" "*"
 
@@ -2553,9 +2553,9 @@ css-in-js-utils@^2.0.0:
   dependencies:
     hyphenate-style-name "^1.0.2"
 
-css-loader@^0.28.10:
-  version "0.28.10"
-  resolved "https://registry.yarnpkg.com/css-loader/-/css-loader-0.28.10.tgz#40282e79230f7bcb4e483efa631d670b735ebf42"
+css-loader@^0.28.11:
+  version "0.28.11"
+  resolved "https://registry.yarnpkg.com/css-loader/-/css-loader-0.28.11.tgz#c3f9864a700be2711bb5a2462b2389b1a392dab7"
   dependencies:
     babel-code-frame "^6.26.0"
     css-selector-tokenizer "^0.7.0"
@@ -2572,6 +2572,10 @@ css-loader@^0.28.10:
     postcss-value-parser "^3.3.0"
     source-list-map "^2.0.0"
 
+css-mediaquery@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/css-mediaquery/-/css-mediaquery-0.1.2.tgz#6a2c37344928618631c54bd33cedd301da18bea0"
+
 css-selector-tokenizer@^0.7.0:
   version "0.7.0"
   resolved "https://registry.yarnpkg.com/css-selector-tokenizer/-/css-selector-tokenizer-0.7.0.tgz#e6988474ae8c953477bf5e7efecfceccd9cf4c86"
@@ -2580,11 +2584,12 @@ css-selector-tokenizer@^0.7.0:
     fastparse "^1.1.1"
     regexpu-core "^1.0.0"
 
-css-to-react-native-transform@^1.0.8:
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/css-to-react-native-transform/-/css-to-react-native-transform-1.0.8.tgz#59a2f4c9bb08dab0f383991d9edbe8e6678c4bb2"
+css-to-react-native-transform@^1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/css-to-react-native-transform/-/css-to-react-native-transform-1.4.0.tgz#4bb4575e15461f7e117bf15bf10d04ec0f81bb17"
   dependencies:
     css "^2.2.1"
+    css-mediaquery "^0.1.2"
     css-to-react-native "^2.1.2"
 
 css-to-react-native@^2.1.2:
@@ -6526,9 +6531,9 @@ postcss-filter-plugins@^2.0.0:
     postcss "^5.0.4"
     uniqid "^4.0.0"
 
-postcss-html@^0.14.0:
-  version "0.14.0"
-  resolved "https://registry.yarnpkg.com/postcss-html/-/postcss-html-0.14.0.tgz#90421c382494b67c4f7c62c3a94c73fb4f4947b3"
+postcss-html@^0.15.0:
+  version "0.15.0"
+  resolved "https://registry.yarnpkg.com/postcss-html/-/postcss-html-0.15.0.tgz#11ba3c07c817d0816f091fe40817a8ecd861300f"
   dependencies:
     htmlparser2 "^3.9.2"
     remark "^9.0.0"
@@ -6817,6 +6822,14 @@ postcss@^6.0.19:
     source-map "^0.6.1"
     supports-color "^5.2.0"
 
+postcss@^6.0.20:
+  version "6.0.20"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-6.0.20.tgz#686107e743a12d5530cb68438c590d5b2bf72c3c"
+  dependencies:
+    chalk "^2.3.2"
+    source-map "^0.6.1"
+    supports-color "^5.3.0"
+
 prepend-http@^1.0.0, prepend-http@^1.0.1:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/prepend-http/-/prepend-http-1.0.4.tgz#d4f4562b0ce3696e41ac52d0e002e57a635dc6dc"
@@ -7071,11 +7084,11 @@ react-hot-loader@^4.0.0:
     prop-types "^15.6.0"
     shallowequal "^1.0.2"
 
-react-native-css-transformer@^1.0.6:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/react-native-css-transformer/-/react-native-css-transformer-1.0.6.tgz#8116f7f1a4cf4e834c9994acd43bff170dc9cee9"
+react-native-css-transformer@^1.0.7:
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/react-native-css-transformer/-/react-native-css-transformer-1.0.7.tgz#a1ae380d0114d1263c0ed740ab88c0802a62dd45"
   dependencies:
-    css-to-react-native-transform "^1.0.8"
+    css-to-react-native-transform "^1.4.0"
     semver "^5.4.1"
 
 react-native-fontawesome@^5.7.0:
@@ -7086,11 +7099,11 @@ react-native-known-styling-properties@^1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/react-native-known-styling-properties/-/react-native-known-styling-properties-1.0.3.tgz#321eebd8bc4748a33e43aea4ad82fbfa033fd5ed"
 
-react-native-sass-transformer@^1.0.6:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/react-native-sass-transformer/-/react-native-sass-transformer-1.0.6.tgz#486ce3548ae7ed4a83147e8bf374398c1563393d"
+react-native-sass-transformer@^1.0.7:
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/react-native-sass-transformer/-/react-native-sass-transformer-1.0.7.tgz#32ea40b5dbe4b145651e5163e7fa8bb104dadc6d"
   dependencies:
-    css-to-react-native-transform "^1.0.8"
+    css-to-react-native-transform "^1.4.0"
     semver "^5.4.1"
 
 react-native-typescript-transformer@^1.2.3:
@@ -7102,9 +7115,9 @@ react-native-typescript-transformer@^1.2.3:
     semver "^5.4.1"
     source-map "^0.5.6"
 
-react-native-web@^0.5.2:
-  version "0.5.2"
-  resolved "https://registry.yarnpkg.com/react-native-web/-/react-native-web-0.5.2.tgz#54686138e3da5e188de5e51943fb446e84807e08"
+react-native-web@^0.5.3:
+  version "0.5.3"
+  resolved "https://registry.yarnpkg.com/react-native-web/-/react-native-web-0.5.3.tgz#1c977e28b0a22006838bf08d361f664935c180ed"
   dependencies:
     array-find-index "^1.0.2"
     create-react-class "^15.6.2"
@@ -8361,9 +8374,9 @@ style-search@^0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/style-search/-/style-search-0.1.0.tgz#7958c793e47e32e07d2b5cafe5c0bf8e12e77902"
 
-stylelint-config-react-native-css-modules@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/stylelint-config-react-native-css-modules/-/stylelint-config-react-native-css-modules-1.2.0.tgz#38609db31ae9fc1a6baa423988dd24f2d072bc12"
+stylelint-config-react-native-css-modules@^1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/stylelint-config-react-native-css-modules/-/stylelint-config-react-native-css-modules-1.3.0.tgz#954d3f940c079f54ac91478fcd7050de13cd890d"
 
 stylelint-react-native@^1.1.0:
   version "1.1.0"
@@ -8371,9 +8384,9 @@ stylelint-react-native@^1.1.0:
   dependencies:
     react-native-known-styling-properties "^1.0.3"
 
-stylelint@^9.1.2:
-  version "9.1.2"
-  resolved "https://registry.yarnpkg.com/stylelint/-/stylelint-9.1.2.tgz#4a503f6f32bd456e5313f4a74103634c987867ec"
+stylelint@^9.1.3:
+  version "9.1.3"
+  resolved "https://registry.yarnpkg.com/stylelint/-/stylelint-9.1.3.tgz#8260f2a221b98e4afafd9b2b8a785d2e38cbb8a4"
   dependencies:
     autoprefixer "^8.0.0"
     balanced-match "^1.0.0"
@@ -8397,7 +8410,7 @@ stylelint@^9.1.2:
     normalize-selector "^0.2.0"
     pify "^3.0.0"
     postcss "^6.0.16"
-    postcss-html "^0.14.0"
+    postcss-html "^0.15.0"
     postcss-less "^1.1.0"
     postcss-media-query-parser "^0.2.3"
     postcss-reporter "^5.0.0"
@@ -8657,9 +8670,9 @@ trough@^1.0.0:
   dependencies:
     glob "^6.0.4"
 
-ts-loader@^4.0.1:
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/ts-loader/-/ts-loader-4.0.1.tgz#3d920b059966efec9637133ab0ca9b04d625d59a"
+ts-loader@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/ts-loader/-/ts-loader-4.1.0.tgz#6216e75600941df3270bc4a7125e20aefb2dc5ea"
   dependencies:
     chalk "^2.3.0"
     enhanced-resolve "^4.0.0"
