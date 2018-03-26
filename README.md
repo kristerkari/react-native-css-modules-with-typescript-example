@@ -1,14 +1,12 @@
 # React Native + CSS modules + Typescript example
 
+**Quick links:** **[Features](#example-app-features)** • **[Screenshots](#screenshots)** • **[Documentation](https://github.com/kristerkari/react-native-css-modules#documentation)** • **[Try it](#try-it)**
+
 <a href="https://facebook.github.io/react-native/"><img src="images/react-native-logo.png" width="160"></a><img src="images/plus.svg" width="100"><a href="https://github.com/css-modules/css-modules"><img src="images/css-modules-logo.svg" width="170"></a><img src="images/plus.svg" width="100"><a href="https://www.typescriptlang.org/"><img src="images/typescript-logo.svg" width="170"></a>
 
 A simple example app that shows how you can use CSS modules + Typescript with React Native and React (for browser).
 
-Have a look at the `src` folder to see code examples.
-
-Have a look at the documentation if you want to add React Native CSS modules to your own project:
-
-* [React Native CSS modules](https://github.com/kristerkari/react-native-css-modules)
+Have a look at the [src](/src) folder to see code examples.
 
 ## Example App features
 
@@ -24,7 +22,7 @@ Have a look at the documentation if you want to add React Native CSS modules to 
 * CSS Hot reloading for both React Native and Web
 * [Uses Stylelint config for React Native CSS modules](https://github.com/kristerkari/stylelint-config-react-native-css-modules)
 
-## Setup
+## Try it
 
 ### Step 1: Install depencies to run React Native
 
