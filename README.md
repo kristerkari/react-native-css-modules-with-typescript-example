@@ -16,11 +16,11 @@ Have a look at the [src](/src) folder to see code examples.
 * [Uses custom Typescript `@types/react-native` package with className support](https://github.com/kristerkari/react-native-types-for-css-modules).
 * Automatically generates Typescript types for CSS files using Webpack [typings-for-css-modules-loader](https://github.com/Jimdo/typings-for-css-modules-loader).
 * Allows you to use both `className={myStyles.myClass}` and `style={{ color: "red" }}` properties on React Native elements such as `<Text>` or `<View>`.
-* [Supports two syntaxes for using multiple classes](https://github.com/kristerkari/babel-plugin-react-native-classname-to-style#multiple-classes) that work with React Native CSS modules and regular CSS modules.
+* [Supports 2 syntaxes for using multiple CSS classes](https://github.com/kristerkari/babel-plugin-react-native-classname-to-style#multiple-classes) that work with React Native CSS modules and regular CSS modules.
 * Uses [Sass](src/Buttons.scss) and [CSS](src/ProfileCard.css) for styles, but you can choose which one to use.
 * You can use platform specific file extensions, e.g. `styles.ios.scss`, `styles.android.scss`, `styles.native.scss`.
 * CSS Hot reloading for both React Native and Web
-* [Uses Stylelint config for React Native CSS modules](https://github.com/kristerkari/stylelint-config-react-native-css-modules)
+* [Uses custom stylelint config for React Native CSS modules](https://github.com/kristerkari/stylelint-config-react-native-css-modules)
 
 ## Try it
 
