@@ -88,14 +88,6 @@ yarn ios
 
 ## Screenshots
 
-### iOS
+**iOS - Android - Web**
 
-![ios](screenshots/ios.png "iOS")
-
-### Android
-
-![android](screenshots/android.png "Android")
-
-### Web
-
-![web](screenshots/web.png "Web")
+<img src="screenshots/ios.png" width="33.3333%"><img src="screenshots/android.png" width="33.3333%"><img src="screenshots/web3.png" width="33.3333%">
