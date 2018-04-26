@@ -516,9 +516,9 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react-native@kristerkari/react-native-types-for-css-modules#v0.55.3":
-  version "0.55.3"
-  resolved "https://codeload.github.com/kristerkari/react-native-types-for-css-modules/tar.gz/0276d6bd6bd8d236bd299aad998c15ab296d4534"
+"@types/react-native@kristerkari/react-native-types-for-css-modules#v0.55.7":
+  version "0.55.7"
+  resolved "https://codeload.github.com/kristerkari/react-native-types-for-css-modules/tar.gz/f48e9fb5b3af26337e4b9e6ec3d5b8101786030a"
   dependencies:
     "@types/react" "*"
 
@@ -1111,9 +1111,9 @@ babel-plugin-react-native-classname-to-style@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/babel-plugin-react-native-classname-to-style/-/babel-plugin-react-native-classname-to-style-1.2.1.tgz#364182bbc7d1929242a7a09598f873c5e97350dd"
 
-babel-plugin-react-native-platform-specific-extensions@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/babel-plugin-react-native-platform-specific-extensions/-/babel-plugin-react-native-platform-specific-extensions-1.0.1.tgz#659d789b7d231f31a61031442cbc779349a27966"
+babel-plugin-react-native-platform-specific-extensions@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/babel-plugin-react-native-platform-specific-extensions/-/babel-plugin-react-native-platform-specific-extensions-1.1.0.tgz#2886848c1124b68ed4407dc2e3440568a37c55c4"
   dependencies:
     "@babel/template" "^7.0.0-beta.37"
 
@@ -2143,6 +2143,14 @@ chalk@^2.0.0, chalk@^2.0.1, chalk@^2.1.0, chalk@^2.3.0:
 chalk@^2.3.2:
   version "2.3.2"
   resolved "https://registry.yarnpkg.com/chalk/-/chalk-2.3.2.tgz#250dc96b07491bfd601e648d66ddf5f60c7a5c65"
+  dependencies:
+    ansi-styles "^3.2.1"
+    escape-string-regexp "^1.0.5"
+    supports-color "^5.3.0"
+
+chalk@^2.4.0:
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/chalk/-/chalk-2.4.1.tgz#18c49ab16a037b6eb0152cc83e3471338215b66e"
   dependencies:
     ansi-styles "^3.2.1"
     escape-string-regexp "^1.0.5"
@@ -6182,9 +6190,9 @@ node-pre-gyp@^0.6.39:
     tar "^2.2.1"
     tar-pack "^3.4.0"
 
-node-sass@^4.8.3:
-  version "4.8.3"
-  resolved "https://registry.yarnpkg.com/node-sass/-/node-sass-4.8.3.tgz#d077cc20a08ac06f661ca44fb6f19cd2ed41debb"
+node-sass@^4.9.0:
+  version "4.9.0"
+  resolved "https://registry.yarnpkg.com/node-sass/-/node-sass-4.9.0.tgz#d1b8aa855d98ed684d6848db929a20771cc2ae52"
   dependencies:
     async-foreach "^0.1.3"
     chalk "^1.1.1"
@@ -7323,19 +7331,24 @@ react-fontawesome@^1.6.1:
   dependencies:
     prop-types "^15.5.6"
 
-react-hot-loader@^4.0.1:
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/react-hot-loader/-/react-hot-loader-4.0.1.tgz#48284350ae5d7ba07dac872bd5bbc6e477352593"
+react-hot-loader@^4.1.2:
+  version "4.1.2"
+  resolved "https://registry.yarnpkg.com/react-hot-loader/-/react-hot-loader-4.1.2.tgz#5e8025f5bc5605506586b46eb2c6cc4006fd54d7"
   dependencies:
     fast-levenshtein "^2.0.6"
     global "^4.3.0"
     hoist-non-react-statics "^2.5.0"
     prop-types "^15.6.1"
+    react-lifecycles-compat "^3.0.2"
     shallowequal "^1.0.2"
 
 react-is@^16.3.2:
   version "16.3.2"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.3.2.tgz#f4d3d0e2f5fbb6ac46450641eb2e25bf05d36b22"
+
+react-lifecycles-compat@^3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-3.0.2.tgz#7279047275bd727a912e25f734c0559527e84eff"
 
 react-native-css-transformer@^1.1.0:
   version "1.1.0"
@@ -7359,18 +7372,19 @@ react-native-sass-transformer@^1.1.1:
     css-to-react-native-transform "^1.4.0"
     semver "^5.4.1"
 
-react-native-typescript-transformer@^1.2.4:
-  version "1.2.4"
-  resolved "https://registry.yarnpkg.com/react-native-typescript-transformer/-/react-native-typescript-transformer-1.2.4.tgz#74876958a2947a81e598f336a2f42be1bb01a18c"
+react-native-typescript-transformer@^1.2.5:
+  version "1.2.5"
+  resolved "https://registry.yarnpkg.com/react-native-typescript-transformer/-/react-native-typescript-transformer-1.2.5.tgz#3e3b94fca705bcf40c7a99540bca47598f75a01b"
   dependencies:
+    chalk "^2.4.0"
     find-root "^1.1.0"
     jju "^1.3.0"
     semver "^5.4.1"
     source-map "^0.5.6"
 
-react-native-web@^0.6.0:
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/react-native-web/-/react-native-web-0.6.0.tgz#46c843ab83c569246dc43ba745033c1bb4d22930"
+react-native-web@^0.6.1:
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/react-native-web/-/react-native-web-0.6.1.tgz#54d809bdce9eca13277666a13acb9cdb971d1f11"
   dependencies:
     array-find-index "^1.0.2"
     create-react-class "^15.6.2"
@@ -7383,9 +7397,9 @@ react-native-web@^0.6.0:
     prop-types "^15.6.0"
     react-timer-mixin "^0.13.3"
 
-react-native@0.55.2:
-  version "0.55.2"
-  resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.55.2.tgz#80d26a3f4193ebd1fd49a4859011c501b0ca3bab"
+react-native@0.55.3:
+  version "0.55.3"
+  resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.55.3.tgz#6ff1691bd0645d0480fba16377edb9dce5bd28c4"
   dependencies:
     absolute-path "^0.0.0"
     art "^0.10.0"
@@ -8640,9 +8654,9 @@ strip-json-comments@~2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/strip-json-comments/-/strip-json-comments-2.0.1.tgz#3c531942e908c2697c0ec344858c286c7ca0a60a"
 
-style-loader@^0.20.3:
-  version "0.20.3"
-  resolved "https://registry.yarnpkg.com/style-loader/-/style-loader-0.20.3.tgz#ebef06b89dec491bcb1fdb3452e913a6fd1c10c4"
+style-loader@^0.21.0:
+  version "0.21.0"
+  resolved "https://registry.yarnpkg.com/style-loader/-/style-loader-0.21.0.tgz#68c52e5eb2afc9ca92b6274be277ee59aea3a852"
   dependencies:
     loader-utils "^1.1.0"
     schema-utils "^0.4.5"
@@ -8994,9 +9008,9 @@ typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
 
-typescript@^2.8.1:
-  version "2.8.1"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.8.1.tgz#6160e4f8f195d5ba81d4876f9c0cc1fbc0820624"
+typescript@^2.8.3:
+  version "2.8.3"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.8.3.tgz#5d817f9b6f31bb871835f4edf0089f21abe6c170"
 
 typings-for-css-modules-loader@^1.7.0:
   version "1.7.0"
@@ -9356,9 +9370,9 @@ webpack-addons@^1.1.5:
   dependencies:
     jscodeshift "^0.4.0"
 
-webpack-cli@^2.0.14:
-  version "2.0.14"
-  resolved "https://registry.yarnpkg.com/webpack-cli/-/webpack-cli-2.0.14.tgz#71d03d8c10547c1dfd674f71ff3b0457c33a74cd"
+webpack-cli@^2.0.15:
+  version "2.0.15"
+  resolved "https://registry.yarnpkg.com/webpack-cli/-/webpack-cli-2.0.15.tgz#7532066556b03bd3292285ac08537e28844616c2"
   dependencies:
     chalk "^2.3.2"
     cross-spawn "^6.0.5"
