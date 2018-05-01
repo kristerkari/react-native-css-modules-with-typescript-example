@@ -24,7 +24,7 @@
   "devDependencies": {
     "@types/react-fontawesome": "^1.6.2",
     "@types/react-native":
-      "kristerkari/react-native-types-for-css-modules#v0.55.7",
+      "kristerkari/react-native-types-for-css-modules#v0.55.9",
     "autoprefixer": "^8.3.0",
     "babel-jest": "22.4.3",
     "babel-loader": "^7.1.4",

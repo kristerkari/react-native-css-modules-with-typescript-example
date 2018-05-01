@@ -516,9 +516,9 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react-native@kristerkari/react-native-types-for-css-modules#v0.55.7":
-  version "0.55.7"
-  resolved "https://codeload.github.com/kristerkari/react-native-types-for-css-modules/tar.gz/f48e9fb5b3af26337e4b9e6ec3d5b8101786030a"
+"@types/react-native@kristerkari/react-native-types-for-css-modules#v0.55.9":
+  version "0.55.9"
+  resolved "https://codeload.github.com/kristerkari/react-native-types-for-css-modules/tar.gz/b2e02180347247d2719ff2fd6fa932c2c42835b7"
   dependencies:
     "@types/react" "*"
 
