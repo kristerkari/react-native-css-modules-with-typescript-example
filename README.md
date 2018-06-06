@@ -36,7 +36,7 @@ Have a look at the [src](/src) folder to see code examples.
 
 ### Step 1: Install depencies to run React Native
 
-Make sure that you have `react-native-cli` installed and [XCode](https://developer.apple.com/xcode/)/[Android Studio](https://developer.android.com/studio/index.html) installed and working.
+Make sure that you have `react-native-cli` installed (`npm install -g react-native-cli`) and [XCode](https://developer.apple.com/xcode/) (for iOS development) / [Android Studio](https://developer.android.com/studio/index.html) (for Android development) installed and working.
 
 * Go to "Building Projects with Native Code" tab and follow the guide: https://facebook.github.io/react-native/docs/getting-started.html
 
@@ -47,7 +47,7 @@ git clone git@github.com:kristerkari/react-native-css-modules-with-typescript-ex
 cd react-native-css-modules-with-typescript-example
 ```
 
-### Step 3: Install project dependencies
+### Step 3: Install example app's dependencies
 
 ```sh
 npm install
@@ -55,7 +55,7 @@ npm install
 
 ### Step 4: Run React Native packager
 
-You can open a new terminal tab for the packager.
+You can open a new terminal tab to run React Native's packager.
 
 ```sh
 npm start
