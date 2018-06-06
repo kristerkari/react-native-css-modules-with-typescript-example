@@ -7,7 +7,7 @@ A simple example app that shows how you can use CSS modules + Typescript with Re
 
 Have a look at the [src](/src) folder to see code examples.
 
-**Quick links:** **[Features](#example-app-features)** • **[Screenshots](#screenshots)** • **[Documentation](https://github.com/kristerkari/react-native-css-modules#documentation)** • **[Try it](#try-it)**
+**Quick links:** **[Features](#example-app-features)** • **[Screenshots](#screenshots)** • **[Try it](#try-it)** • **[Documentation](https://github.com/kristerkari/react-native-css-modules#documentation)**
 
 <a href="https://facebook.github.io/react-native/"><img src="images/react-native-logo.png" width="160"></a><img src="images/plus.svg" width="100"><a href="https://github.com/css-modules/css-modules"><img src="images/css-modules-logo.svg" width="170"></a><img src="images/plus.svg" width="100"><a href="https://www.typescriptlang.org/"><img src="images/typescript-logo.svg" width="170"></a>
 
