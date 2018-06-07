@@ -15,22 +15,22 @@ Have a look at the [src](/src) folder to see code examples.
 
 #### React Native and Web
 
-* [Uses custom Typescript `@types/react-native` package with className support](https://github.com/kristerkari/react-native-types-for-css-modules).
-* Automatically generates Typescript types for CSS files using Webpack [typings-for-css-modules-loader](https://github.com/Jimdo/typings-for-css-modules-loader).
-* Allows you to use both `className={myStyles.myClass}` and `style={{ color: "red" }}` properties on React Native elements such as `<Text>` or `<View>`.
-* CSS Hot reloading.
-* Uses [Sass](src/Buttons.scss) and [CSS](src/ProfileCard.css) for styles, but you can choose which one to use.
-* [Uses custom stylelint config for React Native CSS modules](https://github.com/kristerkari/stylelint-config-react-native-css-modules)
+- :package: [Uses custom Typescript `@types/react-native` package with support for className property](https://github.com/kristerkari/react-native-types-for-css-modules).
+- :package: Automatically generates Typescript typings for CSS files using Webpack's [typings-for-css-modules-loader](https://github.com/Jimdo/typings-for-css-modules-loader).
+- :tada: Allows `className` and `style` properties to be used on React Native elements such as `<Text>` or `<View>`.
+- :fire: CSS Hot loading.
+- :ok_hand: Uses [Sass](src/Buttons.scss) and [CSS](src/ProfileCard.css) for styles
+- :mag: [Custom stylelint config for React Native CSS modules](https://github.com/kristerkari/stylelint-config-react-native-css-modules)
 
 #### React Native specific
 
-* Uses [React Native CSS modules](https://github.com/kristerkari/react-native-css-modules)
-* You can use platform specific file extensions, e.g. `styles.ios.scss`, `styles.android.scss`, `styles.native.scss`.
+- :package: Uses [React Native CSS modules](https://github.com/kristerkari/react-native-css-modules)
+- :globe_with_meridians: Platform specific file extensions, e.g. `styles.ios.css`, `styles.android.css`, `styles.native.css`.
 
 #### Web specific
 
-* Uses [Webpack](https://webpack.js.org/) + [CSS modules](https://github.com/css-modules/css-modules).
-* Uses [React Native for Web](https://github.com/necolas/react-native-web) to make most React Native elements work in the browser.
+- :package: Uses [Webpack](https://webpack.js.org/) + [CSS modules](https://github.com/css-modules/css-modules).
+- :wrench: Uses [React Native for Web](https://github.com/necolas/react-native-web) to make most React Native elements work in the browser.
 
 ## Try it
 
@@ -38,7 +38,7 @@ Have a look at the [src](/src) folder to see code examples.
 
 Make sure that you have `react-native-cli` installed (`npm install -g react-native-cli`) and [XCode](https://developer.apple.com/xcode/) (for iOS development) / [Android Studio](https://developer.android.com/studio/index.html) (for Android development) installed and working.
 
-* Go to "Building Projects with Native Code" tab and follow the guide: https://facebook.github.io/react-native/docs/getting-started.html
+- Go to "Building Projects with Native Code" tab and follow the guide: https://facebook.github.io/react-native/docs/getting-started.html
 
 ### Step 2: Clone the repo and move to project
 
