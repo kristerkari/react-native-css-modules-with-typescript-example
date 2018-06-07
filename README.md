@@ -18,14 +18,14 @@ Have a look at the [src](/src) folder to see code examples.
 - :package: [Uses custom Typescript `@types/react-native` package with support for className property](https://github.com/kristerkari/react-native-types-for-css-modules).
 - :package: Automatically generates Typescript typings for CSS files using Webpack's [typings-for-css-modules-loader](https://github.com/Jimdo/typings-for-css-modules-loader).
 - :tada: Allows `className` and `style` properties to be used on React Native elements such as `<Text>` or `<View>`.
-- :fire: CSS Hot loading.
+- :fire: CSS Hot loading (live reloading).
 - :ok_hand: Uses [Sass](src/Buttons.scss) and [CSS](src/ProfileCard.css) for styles
 - :mag: [Custom stylelint config for React Native CSS modules](https://github.com/kristerkari/stylelint-config-react-native-css-modules)
 
 #### React Native specific
 
 - :package: Uses [React Native CSS modules](https://github.com/kristerkari/react-native-css-modules)
-- :globe_with_meridians: Platform specific file extensions, e.g. `styles.ios.css`, `styles.android.css`, `styles.native.css`.
+- :globe_with_meridians: [Platform specific file extensions](https://facebook.github.io/react-native/docs/platform-specific-code.html#platform-specific-extensions), e.g. `styles.ios.css`, `styles.android.css`, `styles.native.css`.
 
 #### Web specific
 
