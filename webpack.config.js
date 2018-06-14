@@ -62,8 +62,11 @@ module.exports = {
               namedExport: true,
               camelCase: true,
               modules: true,
-              localIdentName: "[path][name]__[local]--[hash:base64:5]",
+              localIdentName: "[path]___[name]__[local]___[hash:base64:5]",
             },
+          },
+          {
+            loader: "postcss-loader",
           },
         ],
       },
@@ -79,8 +82,11 @@ module.exports = {
               namedExport: true,
               camelCase: true,
               modules: true,
-              localIdentName: "[path][name]__[local]--[hash:base64:5]",
+              localIdentName: "[path]___[name]__[local]___[hash:base64:5]",
             },
+          },
+          {
+            loader: "postcss-loader",
           },
           {
             loader: "sass-loader",

@@ -64,6 +64,11 @@
   "jest": {
     "preset": "react-native"
   },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
   "stylelint": {
     "extends": "stylelint-config-react-native-css-modules",
     "rules": {
@@ -74,6 +79,7 @@
       "unit-whitelist": [
         "px",
         "rem",
+        "deg",
         "%"
       ],
       "no-eol-whitespace": true,
