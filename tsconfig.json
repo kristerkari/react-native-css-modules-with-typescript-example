@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "baseUrl": "src",
+    "lib": ["es2015"],
     "sourceMap": true,
     "importHelpers": true,
     "target": "es2015", // set target to ES2015 to avoid Type errors from libraries that use ES2015.
