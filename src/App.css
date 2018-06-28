@@ -9,4 +9,5 @@
   border-style: solid;
   border-color: #ccc;
   max-width: 460px;
+  min-height: 600px;
 }

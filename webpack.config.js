@@ -11,7 +11,7 @@ var babelLoader = {
 };
 
 module.exports = {
-  entry: ["react-hot-loader/patch", "./index.web.js"],
+  entry: ["./polyfills", "react-hot-loader/patch", "./index.web.js"],
   devServer: {
     hot: true,
   },
@@ -100,6 +100,6 @@ module.exports = {
       "react-native": "react-native-web",
     },
     extensions: [".ts", ".web.tsx", ".tsx", ".js", ".jsx"],
-    mainFields: ["jsnext:main", "browser", "main"],
+    mainFields: ["browser", "main"],
   },
 };
