@@ -32,6 +32,11 @@ Have a look at the [src](/src) folder to see code examples.
 - :package: Uses [Webpack](https://webpack.js.org/) + [CSS modules](https://github.com/css-modules/css-modules).
 - :wrench: Uses [React Native for Web](https://github.com/necolas/react-native-web) to make most React Native elements work in the browser.
 
+## Supported Browsers
+
+- Mobile: Android Stock browser (4.4-5.x), Android Chrome, iOS Safari 8+
+- Desktop: Firefox, Chrome, Safari
+
 ## Try it
 
 ### Step 1: Install depencies to run React Native
