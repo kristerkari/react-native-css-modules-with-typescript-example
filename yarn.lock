@@ -6683,9 +6683,9 @@ react-native-fontawesome@^5.7.0:
   version "5.7.0"
   resolved "https://registry.yarnpkg.com/react-native-fontawesome/-/react-native-fontawesome-5.7.0.tgz#7bfe57c21c6522d05eaf206474903c3f299bfc0d"
 
-react-native-known-styling-properties@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/react-native-known-styling-properties/-/react-native-known-styling-properties-1.0.3.tgz#321eebd8bc4748a33e43aea4ad82fbfa033fd5ed"
+react-native-known-styling-properties@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/react-native-known-styling-properties/-/react-native-known-styling-properties-1.0.4.tgz#4fee8b62ff8a5065550dbb34b03b592b7c2fdd1a"
 
 react-native-sass-transformer@^1.2.2:
   version "1.2.2"
@@ -7861,11 +7861,11 @@ stylelint-config-react-native-css-modules@^1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/stylelint-config-react-native-css-modules/-/stylelint-config-react-native-css-modules-1.4.0.tgz#8e495e7dce0a62683fd4100091c0ab30749c7dc1"
 
-stylelint-react-native@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/stylelint-react-native/-/stylelint-react-native-1.1.0.tgz#c22fda46da36a5935be8cc6ad103f6bb901eaa5d"
+stylelint-react-native@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/stylelint-react-native/-/stylelint-react-native-1.1.1.tgz#0c512c201b627a42fa8ae7e5a8901ccfd6f12c09"
   dependencies:
-    react-native-known-styling-properties "^1.0.3"
+    react-native-known-styling-properties "^1.0.4"
 
 stylelint@^9.3.0:
   version "9.3.0"
