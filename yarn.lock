@@ -402,7 +402,7 @@
     pirates "^3.0.1"
     source-map-support "^0.4.2"
 
-"@babel/template@7.0.0-beta.51", "@babel/template@^7.0.0-beta", "@babel/template@^7.0.0-beta.37":
+"@babel/template@7.0.0-beta.51", "@babel/template@^7.0.0-beta", "@babel/template@^7.0.0-beta.49":
   version "7.0.0-beta.51"
   resolved "https://registry.yarnpkg.com/@babel/template/-/template-7.0.0-beta.51.tgz#9602a40aebcf357ae9677e2532ef5fc810f5fbff"
   dependencies:
@@ -451,9 +451,9 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react-native@kristerkari/react-native-types-for-css-modules#v0.55.24":
-  version "0.55.24"
-  resolved "https://codeload.github.com/kristerkari/react-native-types-for-css-modules/tar.gz/ec8ba35ff4e4bcf29734d25b15dd0da67e8f91ab"
+"@types/react-native@kristerkari/react-native-types-for-css-modules#v0.55.27":
+  version "0.55.27"
+  resolved "https://codeload.github.com/kristerkari/react-native-types-for-css-modules/tar.gz/a0a419a5fd37fa01a306aae7a3a760582d8903f7"
   dependencies:
     "@types/react" "*"
 
@@ -717,9 +717,9 @@ anymatch@^2.0.0:
     micromatch "^3.1.4"
     normalize-path "^2.1.1"
 
-app-root-path@^2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/app-root-path/-/app-root-path-2.0.1.tgz#cd62dcf8e4fd5a417efc664d2e5b10653c651b46"
+app-root-path@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/app-root-path/-/app-root-path-2.1.0.tgz#98bf6599327ecea199309866e8140368fd2e646a"
 
 aproba@^1.0.3, aproba@^1.1.1:
   version "1.2.0"
@@ -918,15 +918,15 @@ autoprefixer@^8.0.0:
     postcss "^6.0.22"
     postcss-value-parser "^3.2.3"
 
-autoprefixer@^8.6.3:
-  version "8.6.3"
-  resolved "https://registry.yarnpkg.com/autoprefixer/-/autoprefixer-8.6.3.tgz#1d38a129e6a4582a565b6570d16f2d7d3de9cbf9"
+autoprefixer@^8.6.4:
+  version "8.6.4"
+  resolved "https://registry.yarnpkg.com/autoprefixer/-/autoprefixer-8.6.4.tgz#6bf501de426a3b95973f5d237dbcc9181e9904d2"
   dependencies:
     browserslist "^3.2.8"
-    caniuse-lite "^1.0.30000856"
+    caniuse-lite "^1.0.30000859"
     normalize-range "^0.1.2"
     num2fraction "^1.2.2"
-    postcss "^6.0.22"
+    postcss "^6.0.23"
     postcss-value-parser "^3.2.3"
 
 aws-sign2@~0.6.0:
@@ -1141,11 +1141,11 @@ babel-plugin-react-native-classname-to-style@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/babel-plugin-react-native-classname-to-style/-/babel-plugin-react-native-classname-to-style-1.2.1.tgz#364182bbc7d1929242a7a09598f873c5e97350dd"
 
-babel-plugin-react-native-platform-specific-extensions@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/babel-plugin-react-native-platform-specific-extensions/-/babel-plugin-react-native-platform-specific-extensions-1.1.0.tgz#2886848c1124b68ed4407dc2e3440568a37c55c4"
+babel-plugin-react-native-platform-specific-extensions@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/babel-plugin-react-native-platform-specific-extensions/-/babel-plugin-react-native-platform-specific-extensions-1.1.1.tgz#78f8581af7424cf7d9eea33f3276d9ee21f4c8a4"
   dependencies:
-    "@babel/template" "^7.0.0-beta.37"
+    "@babel/template" "^7.0.0-beta.49"
 
 babel-plugin-react-transform@^3.0.0:
   version "3.0.0"
@@ -1991,9 +1991,9 @@ caniuse-lite@^1.0.30000844, caniuse-lite@^1.0.30000851:
   version "1.0.30000855"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000855.tgz#d5a26a9093b932d6266bf4ed9294b41b84945d14"
 
-caniuse-lite@^1.0.30000856:
-  version "1.0.30000858"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000858.tgz#f6f203a9128bac507136de1cf6cfd966d2df027c"
+caniuse-lite@^1.0.30000859:
+  version "1.0.30000862"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000862.tgz#7ca14f5079fa8f77ac814fca92d45deb4b7eff9d"
 
 capture-exit@^1.2.0:
   version "1.2.0"
@@ -2511,23 +2511,23 @@ css-selector-tokenizer@^0.7.0:
     fastparse "^1.1.1"
     regexpu-core "^1.0.0"
 
-css-to-react-native-transform@^1.6.0:
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/css-to-react-native-transform/-/css-to-react-native-transform-1.6.0.tgz#1b4088c6bdb23083d88953b6f454e35c88c33f0a"
+css-to-react-native-transform@^1.7.0:
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/css-to-react-native-transform/-/css-to-react-native-transform-1.7.0.tgz#1e12deb806644be88583ac3751fad68b0e321437"
   dependencies:
-    css "^2.2.1"
+    css "^2.2.3"
     css-mediaquery "^0.1.2"
-    css-to-react-native "^2.2.0"
+    css-to-react-native "^2.2.1"
 
-css-to-react-native@^2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/css-to-react-native/-/css-to-react-native-2.2.0.tgz#d524ef7f39a2747a8914e86563669ba35b7cf2e7"
+css-to-react-native@^2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/css-to-react-native/-/css-to-react-native-2.2.1.tgz#7f3f4c95de65501b8720c87bf0caf1f39073b88e"
   dependencies:
     css-color-keywords "^1.0.0"
     fbjs "^0.8.5"
     postcss-value-parser "^3.3.0"
 
-css@^2.2.1:
+css@^2.2.3:
   version "2.2.3"
   resolved "https://registry.yarnpkg.com/css/-/css-2.2.3.tgz#f861f4ba61e79bedc962aa548e5780fd95cbc6be"
   dependencies:
@@ -2893,6 +2893,14 @@ end-of-stream@^1.0.0, end-of-stream@^1.1.0:
 enhanced-resolve@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/enhanced-resolve/-/enhanced-resolve-4.0.0.tgz#e34a6eaa790f62fccd71d93959f56b2b432db10a"
+  dependencies:
+    graceful-fs "^4.1.2"
+    memory-fs "^0.4.0"
+    tapable "^1.0.0"
+
+enhanced-resolve@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/enhanced-resolve/-/enhanced-resolve-4.1.0.tgz#41c7e0bfdfe74ac1ffe1e57ad6a5c6c9f3742a7f"
   dependencies:
     graceful-fs "^4.1.2"
     memory-fs "^0.4.0"
@@ -6484,11 +6492,11 @@ react-is@^16.4.1:
   version "16.4.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.4.1.tgz#d624c4650d2c65dbd52c72622bbf389435d9776e"
 
-react-native-css-transformer@^1.2.1:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/react-native-css-transformer/-/react-native-css-transformer-1.2.1.tgz#423e92a132b3a6fac645545a757efc0ef49f4216"
+react-native-css-transformer@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/react-native-css-transformer/-/react-native-css-transformer-1.2.2.tgz#cc287396be7735cdc601b52c91480eaaa3aca8f7"
   dependencies:
-    css-to-react-native-transform "^1.6.0"
+    css-to-react-native-transform "^1.7.0"
     semver "^5.5.0"
 
 react-native-fontawesome@^5.7.0:
@@ -6499,12 +6507,12 @@ react-native-known-styling-properties@^1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/react-native-known-styling-properties/-/react-native-known-styling-properties-1.0.3.tgz#321eebd8bc4748a33e43aea4ad82fbfa033fd5ed"
 
-react-native-sass-transformer@^1.2.1:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/react-native-sass-transformer/-/react-native-sass-transformer-1.2.1.tgz#b1038d11a52e6e4b758e3f578f5cab941a104f4b"
+react-native-sass-transformer@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/react-native-sass-transformer/-/react-native-sass-transformer-1.2.2.tgz#cdbf44223d10d289dd95663689af2c35c92448f2"
   dependencies:
-    app-root-path "^2.0.1"
-    css-to-react-native-transform "^1.6.0"
+    app-root-path "^2.1.0"
+    css-to-react-native-transform "^1.7.0"
     semver "^5.5.0"
 
 react-native-typescript-transformer@^1.2.10:
@@ -6517,9 +6525,9 @@ react-native-typescript-transformer@^1.2.10:
     semver "^5.4.1"
     source-map "^0.5.6"
 
-react-native-web@^0.8.4:
-  version "0.8.4"
-  resolved "https://registry.yarnpkg.com/react-native-web/-/react-native-web-0.8.4.tgz#0555f99bff8d90674e9b4b4d414ad5c2272bdb12"
+react-native-web@^0.8.6:
+  version "0.8.6"
+  resolved "https://registry.yarnpkg.com/react-native-web/-/react-native-web-0.8.6.tgz#86242909829b971e44d22b21a2d2cf3815cc0bf9"
   dependencies:
     array-find-index "^1.0.2"
     create-react-class "^15.6.2"
@@ -7874,9 +7882,9 @@ trough@^1.0.0:
   dependencies:
     glob "^6.0.4"
 
-ts-loader@^4.4.1:
-  version "4.4.1"
-  resolved "https://registry.yarnpkg.com/ts-loader/-/ts-loader-4.4.1.tgz#c93a46eea430ebce1f790dfe438caefb8670d365"
+ts-loader@^4.4.2:
+  version "4.4.2"
+  resolved "https://registry.yarnpkg.com/ts-loader/-/ts-loader-4.4.2.tgz#778d4464b24436873c78f7f9e914d88194c2a248"
   dependencies:
     chalk "^2.3.0"
     enhanced-resolve "^4.0.0"
@@ -8277,9 +8285,9 @@ webpack-sources@^1.0.1, webpack-sources@^1.1.0:
     source-list-map "^2.0.0"
     source-map "~0.6.1"
 
-webpack@^4.12.1:
-  version "4.12.1"
-  resolved "https://registry.yarnpkg.com/webpack/-/webpack-4.12.1.tgz#9108078c67fdd72c2609cea22af87d7aed2acb08"
+webpack@^4.14.0:
+  version "4.14.0"
+  resolved "https://registry.yarnpkg.com/webpack/-/webpack-4.14.0.tgz#bbcc40dbf9a34129491b431574189d3802972243"
   dependencies:
     "@webassemblyjs/ast" "1.5.12"
     "@webassemblyjs/helper-module-context" "1.5.12"
@@ -8291,7 +8299,7 @@ webpack@^4.12.1:
     ajv "^6.1.0"
     ajv-keywords "^3.1.0"
     chrome-trace-event "^1.0.0"
-    enhanced-resolve "^4.0.0"
+    enhanced-resolve "^4.1.0"
     eslint-scope "^3.7.1"
     json-parse-better-errors "^1.0.2"
     loader-runner "^2.3.0"
