@@ -6,7 +6,7 @@
     "tsc": "tsc --project . --noEmit",
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest",
-    "lint": "stylelint 'src/**/*.@(css|scss)'",
+    "lint": "eslint . && stylelint 'src/**/*.@(css|scss)'",
     "web": "webpack-dev-server --mode development",
     "ios": "react-native run-ios",
     "android": "react-native run-android"
@@ -34,6 +34,8 @@
     "babel-preset-react": "^6.24.1",
     "babel-preset-react-native": "4.0.0",
     "css-loader": "^0.28.11",
+    "eslint": "^5.0.1",
+    "eslint-plugin-css-modules": "^2.7.5",
     "file-loader": "^1.1.11",
     "node-sass": "^4.9.0",
     "postcss": "^6.0.23",
@@ -69,6 +71,21 @@
     "plugins": {
       "autoprefixer": {}
     }
+  },
+  "eslintConfig": {
+    "parserOptions": {
+      "sourceType": "module",
+      "ecmaVersion": 2018,
+      "ecmaFeatures": {
+        "jsx": true
+      }
+    },
+    "plugins": [
+      "css-modules"
+    ],
+    "extends": [
+      "plugin:css-modules/recommended"
+    ]
   },
   "stylelint": {
     "extends": "stylelint-config-react-native-css-modules",
