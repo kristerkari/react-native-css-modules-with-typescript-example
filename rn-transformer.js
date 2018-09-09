@@ -1,5 +1,5 @@
 var upstreamTransformer = require("metro/src/reactNativeTransformer");
-var sassTransformer = require("react-native-sass-transformer");
+var sassTransformer = require("react-native-typed-sass-transformer");
 var cssTransformer = require("react-native-css-transformer");
 var typescriptTransformer = require("react-native-typescript-transformer");
 
