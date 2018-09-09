@@ -3,7 +3,7 @@ import App from "./src/App";
 
 AppRegistry.registerComponent("CSSModulesExample", () => App);
 AppRegistry.runApplication("CSSModulesExample", {
-  rootTag: document.getElementById("react-app"),
+  rootTag: document.getElementById("react-app")
 });
 
 if (module.hot) {

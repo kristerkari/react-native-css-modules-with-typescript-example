@@ -1,8 +1,8 @@
 import * as React from "react";
-import { View, Text, Image, Linking } from "react-native";
-import styles from "./ProfileCard.css";
-import bg from "./images/iceland.jpg";
+import { Image, Text, View } from "react-native";
 import avatar from "./images/avatar.png";
+import bg from "./images/iceland.jpg";
+import styles from "./ProfileCard.css";
 
 export const ProfileCard = () => {
   return (

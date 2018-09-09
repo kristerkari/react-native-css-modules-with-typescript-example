@@ -1,7 +1,7 @@
 import * as React from "react";
+import { Text, TouchableHighlight, View } from "react-native";
 import styles from "./Buttons.scss";
 import { FontAwesome } from "./FontAwesome";
-import { View, TouchableHighlight, Text } from "react-native";
 import { titleCase } from "./utils/titleCase";
 
 const colors = ["green", "pink", "dark", "orange", "red", "black"];

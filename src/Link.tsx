@@ -1,5 +1,5 @@
 import * as React from "react";
-import { View, Text, Linking } from "react-native";
+import { Linking, Text, View } from "react-native";
 import styles from "./Link.css";
 
 interface LinkProps {
