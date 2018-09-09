@@ -51,6 +51,7 @@
     "stylelint-config-react-native-css-modules": "^1.4.1",
     "stylelint-react-native": "^2.0.0",
     "ts-loader": "^4.5.0",
+    "typed-css-modules": "^0.3.5",
     "typescript": "^3.0.1",
     "typings-for-css-modules-loader": "^1.7.0",
     "webpack": "^4.17.1",
