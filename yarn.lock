@@ -6833,13 +6833,6 @@ react-is@^16.4.2:
   version "16.4.2"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.4.2.tgz#84891b56c2b6d9efdee577cc83501dfc5ecead88"
 
-react-native-css-transformer@^1.2.2:
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/react-native-css-transformer/-/react-native-css-transformer-1.2.2.tgz#cc287396be7735cdc601b52c91480eaaa3aca8f7"
-  dependencies:
-    css-to-react-native-transform "^1.7.0"
-    semver "^5.5.0"
-
 react-native-fontawesome@^5.7.0:
   version "5.7.0"
   resolved "https://registry.yarnpkg.com/react-native-fontawesome/-/react-native-fontawesome-5.7.0.tgz#7bfe57c21c6522d05eaf206474903c3f299bfc0d"
@@ -6847,6 +6840,14 @@ react-native-fontawesome@^5.7.0:
 react-native-known-styling-properties@^1.0.4:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/react-native-known-styling-properties/-/react-native-known-styling-properties-1.0.4.tgz#4fee8b62ff8a5065550dbb34b03b592b7c2fdd1a"
+
+react-native-typed-css-transformer@^0.10.0:
+  version "0.10.0"
+  resolved "https://registry.yarnpkg.com/react-native-typed-css-transformer/-/react-native-typed-css-transformer-0.10.0.tgz#d3a49b9fe611ec4317a39a7a713181c1103be66f"
+  dependencies:
+    css-to-react-native-transform "^1.7.0"
+    semver "^5.5.1"
+    typed-css-modules "^0.3.5"
 
 react-native-typed-sass-transformer@^0.10.0:
   version "0.10.0"
