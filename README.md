@@ -15,7 +15,7 @@ Have a look at the [src](/src) folder to see code examples.
 
 #### React Native and Web
 
-- :package: Automatically generates Typescript typings for CSS and Sass files using [react-native-typed-css-transformer](https://github.com/kristerkari/react-native-typed-css-transformer), [react-native-typed-sass-transformer
+- :package: Automatically generates Typescript typings (`.d.ts` files) for CSS and Sass files using [react-native-typed-css-transformer](https://github.com/kristerkari/react-native-typed-css-transformer), [react-native-typed-sass-transformer
   ](https://github.com/kristerkari/react-native-typed-sass-transformer) and Webpack's [typings-for-css-modules-loader](https://github.com/Jimdo/typings-for-css-modules-loader).
 - :package: [Uses custom Typescript `@types/react-native` package with support for className property](https://github.com/kristerkari/react-native-types-for-css-modules).
 - :tada: Allows `className` and `style` properties to be used on React Native elements such as `<Text>` or `<View>`.
