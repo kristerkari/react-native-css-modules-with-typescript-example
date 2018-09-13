@@ -5,19 +5,19 @@ var babelLoader = {
   loader: "babel-loader",
   query: {
     babelrc: false,
-    presets: ["@babel/env", "react", "react-native"],
-    plugins: ["react-hot-loader/babel"],
-  },
+    presets: ["@babel/env", "react", "module:metro-react-native-babel-preset"],
+    plugins: ["react-hot-loader/babel"]
+  }
 };
 
 module.exports = {
   entry: ["./polyfills", "react-hot-loader/patch", "./index.web.js"],
   devServer: {
-    hot: true,
+    hot: true
   },
   plugins: [
     new webpack.NamedModulesPlugin(),
-    new webpack.HotModuleReplacementPlugin(),
+    new webpack.HotModuleReplacementPlugin()
   ],
   module: {
     rules: [
@@ -30,31 +30,31 @@ module.exports = {
             loader: "ts-loader",
             options: {
               compilerOptions: {
-                target: "es5",
-              },
-            },
-          },
-        ],
+                target: "es5"
+              }
+            }
+          }
+        ]
       },
       {
         test: /\.js(x?)$/,
         exclude: /node_modules/,
-        ...babelLoader,
+        ...babelLoader
       },
       {
         test: /\.(jpg|png|svg)$/,
         use: {
           loader: "file-loader",
           options: {
-            name: "[path][name].[hash].[ext]",
-          },
-        },
+            name: "[path][name].[hash].[ext]"
+          }
+        }
       },
       {
         test: /\.css$/,
         use: [
           {
-            loader: "style-loader",
+            loader: "style-loader"
           },
           {
             loader: "typings-for-css-modules-loader",
@@ -62,19 +62,19 @@ module.exports = {
               namedExport: true,
               camelCase: true,
               modules: true,
-              localIdentName: "[path]___[name]__[local]___[hash:base64:5]",
-            },
+              localIdentName: "[path]___[name]__[local]___[hash:base64:5]"
+            }
           },
           {
-            loader: "postcss-loader",
-          },
-        ],
+            loader: "postcss-loader"
+          }
+        ]
       },
       {
         test: /\.scss$/,
         use: [
           {
-            loader: "style-loader",
+            loader: "style-loader"
           },
           {
             loader: "typings-for-css-modules-loader",
@@ -82,24 +82,24 @@ module.exports = {
               namedExport: true,
               camelCase: true,
               modules: true,
-              localIdentName: "[path]___[name]__[local]___[hash:base64:5]",
-            },
+              localIdentName: "[path]___[name]__[local]___[hash:base64:5]"
+            }
           },
           {
-            loader: "postcss-loader",
+            loader: "postcss-loader"
           },
           {
-            loader: "sass-loader",
-          },
-        ],
-      },
-    ],
+            loader: "sass-loader"
+          }
+        ]
+      }
+    ]
   },
   resolve: {
     alias: {
-      "react-native": "react-native-web",
+      "react-native": "react-native-web"
     },
     extensions: [".ts", ".web.tsx", ".tsx", ".js", ".jsx"],
-    mainFields: ["browser", "main"],
-  },
+    mainFields: ["browser", "main"]
+  }
 };
