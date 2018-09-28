@@ -47,8 +47,8 @@
     "react-test-renderer": "16.4.2",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.22.1",
-    "stylelint": "^9.5.0",
-    "stylelint-config-react-native-css-modules": "^1.4.1",
+    "stylelint": "^9.6.0",
+    "stylelint-config-react-native-css-modules": "^2.0.0",
     "stylelint-react-native": "^2.0.0",
     "ts-loader": "^4.5.0",
     "typescript": "^3.0.1",
@@ -94,12 +94,6 @@
       "declaration-block-no-duplicate-properties": true,
       "no-duplicate-selectors": true,
       "no-extra-semicolons": true,
-      "unit-whitelist": [
-        "px",
-        "rem",
-        "deg",
-        "%"
-      ],
       "no-eol-whitespace": true,
       "no-missing-end-of-source-newline": true
     }
