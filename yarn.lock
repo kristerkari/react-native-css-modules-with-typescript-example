@@ -783,15 +783,19 @@
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@nodelib/fs.stat/-/fs.stat-1.1.0.tgz#50c1e2260ac0ed9439a181de3725a0168d59c48a"
 
+"@types/prop-types@^15.5.6":
+  version "15.5.6"
+  resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.5.6.tgz#9c03d3fed70a8d517c191b7734da2879b50ca26c"
+
 "@types/react-fontawesome@^1.6.4":
   version "1.6.4"
   resolved "https://registry.yarnpkg.com/@types/react-fontawesome/-/react-fontawesome-1.6.4.tgz#95884bd8df906b423a254e00d5050f7fe75b3e76"
   dependencies:
     "@types/react" "*"
 
-"@types/react-native@kristerkari/react-native-types-for-css-modules#v0.56.18":
-  version "0.56.18"
-  resolved "https://codeload.github.com/kristerkari/react-native-types-for-css-modules/tar.gz/6a76d40cbaac1137a84b74caa6e01b52c18270d9"
+"@types/react-native@kristerkari/react-native-types-for-css-modules#v0.57.7":
+  version "0.57.7"
+  resolved "https://codeload.github.com/kristerkari/react-native-types-for-css-modules/tar.gz/3164dc87779411e689762a425c0b78dc8abca271"
   dependencies:
     "@types/react" "*"
 
