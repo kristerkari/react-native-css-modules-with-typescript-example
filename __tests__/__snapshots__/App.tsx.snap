@@ -1,0 +1,449 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<RCTSafeAreaView
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <RCTScrollView
+    style="wrapper"
+  >
+    <View>
+      <View
+        style="description"
+      >
+        <Text
+          style="descriptionText"
+        >
+          Profile card from:
+
+          <Text
+            onPress={[Function]}
+            style="descriptionLink"
+          >
+            https://themes.getbootstrap.com/products/application
+          </Text>
+        </Text>
+      </View>
+      <View
+        style="profileOuter"
+      >
+        <View
+          style="profileWrapper"
+        >
+          <Image
+            resizeMode="cover"
+            source={
+              Object {
+                "testUri": "../../../src/images/iceland.jpg",
+              }
+            }
+            style="backgroundImg"
+          />
+          <View
+            style="body"
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../src/images/avatar.png",
+                }
+              }
+              style="profileImg"
+            />
+            <View
+              style="nameWrapper"
+            >
+              <Text
+                style="name"
+              >
+                Dave Gamache
+              </Text>
+            </View>
+            <View
+              style="descriptionWrapper"
+            >
+              <Text
+                style="description"
+              >
+                I wish i was a little bit taller, wish i was a baller, wish i had a girl… also.
+              </Text>
+            </View>
+            <View
+              style="stats"
+            >
+              <View
+                style="statsLeft"
+              >
+                <Text
+                  style="statsText"
+                >
+                  Friends
+                </Text>
+                <Text
+                  style={
+                    Array [
+                      "statsText",
+                      "statsTextBold",
+                    ]
+                  }
+                >
+                  12M
+                </Text>
+              </View>
+              <View
+                style="statsRight"
+              >
+                <Text
+                  style="statsText"
+                >
+                  Enemies
+                </Text>
+                <Text
+                  style={
+                    Array [
+                      "statsText",
+                      "statsTextBold",
+                    ]
+                  }
+                >
+                  1
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        style="description"
+      >
+        <Text
+          style="descriptionText"
+        >
+          Buttons from:
+
+          <Text
+            onPress={[Function]}
+            style="descriptionLink"
+          >
+            https://codepen.io/coolzilj/pen/ImlEG
+          </Text>
+        </Text>
+      </View>
+      <View
+        style="buttonsWrapper"
+      >
+        <View
+          style="buttonWrapper"
+        >
+          <View
+            accessible={true}
+            isTVSelectable={true}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style="buttonGreen"
+          >
+            <View
+              style="innerWrapper"
+            >
+              <View
+                style="iconGreen"
+              >
+                <Text
+                  style="iconText"
+                >
+                  <Text>
+                    <Text
+                      style={
+                        Array [
+                          Object {
+                            "backgroundColor": "transparent",
+                            "fontFamily": "FontAwesome",
+                          },
+                          Object {
+                            "color": undefined,
+                          },
+                          undefined,
+                        ]
+                      }
+                    >
+                      
+                    </Text>
+                  </Text>
+                </Text>
+              </View>
+              <Text
+                style="buttonText"
+              >
+                淘宝购买
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style="buttonWrapper"
+        >
+          <View
+            accessible={true}
+            isTVSelectable={true}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style="buttonPink"
+          >
+            <View
+              style="innerWrapper"
+            >
+              <View
+                style="iconPink"
+              >
+                <Text
+                  style="iconText"
+                >
+                  <Text>
+                    <Text
+                      style={
+                        Array [
+                          Object {
+                            "backgroundColor": "transparent",
+                            "fontFamily": "FontAwesome",
+                          },
+                          Object {
+                            "color": undefined,
+                          },
+                          undefined,
+                        ]
+                      }
+                    >
+                      
+                    </Text>
+                  </Text>
+                </Text>
+              </View>
+              <Text
+                style="buttonText"
+              >
+                淘宝购买
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style="buttonWrapper"
+        >
+          <View
+            accessible={true}
+            isTVSelectable={true}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style="buttonDark"
+          >
+            <View
+              style="innerWrapper"
+            >
+              <View
+                style="iconDark"
+              >
+                <Text
+                  style="iconText"
+                >
+                  <Text>
+                    <Text
+                      style={
+                        Array [
+                          Object {
+                            "backgroundColor": "transparent",
+                            "fontFamily": "FontAwesome",
+                          },
+                          Object {
+                            "color": undefined,
+                          },
+                          undefined,
+                        ]
+                      }
+                    >
+                      
+                    </Text>
+                  </Text>
+                </Text>
+              </View>
+              <Text
+                style="buttonText"
+              >
+                淘宝购买
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style="buttonWrapper"
+        >
+          <View
+            accessible={true}
+            isTVSelectable={true}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style="buttonOrange"
+          >
+            <View
+              style="innerWrapper"
+            >
+              <View
+                style="iconOrange"
+              >
+                <Text
+                  style="iconText"
+                >
+                  <Text>
+                    <Text
+                      style={
+                        Array [
+                          Object {
+                            "backgroundColor": "transparent",
+                            "fontFamily": "FontAwesome",
+                          },
+                          Object {
+                            "color": undefined,
+                          },
+                          undefined,
+                        ]
+                      }
+                    >
+                      
+                    </Text>
+                  </Text>
+                </Text>
+              </View>
+              <Text
+                style="buttonText"
+              >
+                淘宝购买
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style="buttonWrapper"
+        >
+          <View
+            accessible={true}
+            isTVSelectable={true}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style="buttonRed"
+          >
+            <View
+              style="innerWrapper"
+            >
+              <View
+                style="iconRed"
+              >
+                <Text
+                  style="iconText"
+                >
+                  <Text>
+                    <Text
+                      style={
+                        Array [
+                          Object {
+                            "backgroundColor": "transparent",
+                            "fontFamily": "FontAwesome",
+                          },
+                          Object {
+                            "color": undefined,
+                          },
+                          undefined,
+                        ]
+                      }
+                    >
+                      
+                    </Text>
+                  </Text>
+                </Text>
+              </View>
+              <Text
+                style="buttonText"
+              >
+                淘宝购买
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style="buttonWrapper"
+        >
+          <View
+            accessible={true}
+            isTVSelectable={true}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style="buttonBlack"
+          >
+            <View
+              style="innerWrapper"
+            >
+              <View
+                style="iconBlack"
+              >
+                <Text
+                  style="iconText"
+                >
+                  <Text>
+                    <Text
+                      style={
+                        Array [
+                          Object {
+                            "backgroundColor": "transparent",
+                            "fontFamily": "FontAwesome",
+                          },
+                          Object {
+                            "color": undefined,
+                          },
+                          undefined,
+                        ]
+                      }
+                    >
+                      
+                    </Text>
+                  </Text>
+                </Text>
+              </View>
+              <Text
+                style="buttonText"
+              >
+                淘宝购买
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</RCTSafeAreaView>
+`;
