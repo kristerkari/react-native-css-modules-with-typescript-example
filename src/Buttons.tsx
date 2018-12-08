@@ -3,9 +3,11 @@ import { Text, TouchableHighlight, View } from "react-native";
 import styles from "./Buttons.scss";
 import { FontAwesome } from "./FontAwesome";
 import { titleCase } from "./utils/titleCase";
+import btnColors from "./_ButtonColors.scss";
 
 const colors = ["green", "pink", "dark", "orange", "red", "black"];
 const stylesIndexSignature: { [index: string]: string } = styles;
+const btnColorssIndexSignature: { [index: string]: string } = btnColors;
 
 const Button = (color: string, index: number) => {
   const button = "button" + titleCase(color);
@@ -26,6 +28,21 @@ const Button = (color: string, index: number) => {
   );
 };
 
+const Color = (color: string, index: number) => {
+  return (
+    <View
+      className={styles.color}
+      style={{ backgroundColor: btnColorssIndexSignature[color] }}
+      key={index}
+    />
+  );
+};
+
 export const Buttons = () => {
-  return <View className={styles.buttonsWrapper}>{colors.map(Button)}</View>;
+  return (
+    <React.Fragment>
+      <View className={styles.wrapper}>{colors.map(Button)}</View>
+      <View className={styles.wrapper}>{colors.map(Color)}</View>
+    </React.Fragment>
+  );
 };
