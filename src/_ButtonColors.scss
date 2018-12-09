@@ -1,0 +1,25 @@
+// Button Color
+$black: #7e7e7e !default;
+$pink: #e27b72 !default;
+$green: #1db6b8 !default;
+$orange: #e8950a !default;
+$red: #e63d00 !default;
+$dark: #505050 !default;
+
+$colors-map: (
+  Green $green,
+  Pink $pink,
+  Orange $orange,
+  Dark $dark,
+  Red $red,
+  Black $black
+);
+
+:export {
+  green: $green;
+  pink: $pink;
+  orange: $orange;
+  dark: $dark;
+  red: $red;
+  black: $black;
+}

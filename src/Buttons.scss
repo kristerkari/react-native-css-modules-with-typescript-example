@@ -1,10 +1,4 @@
-// Button Color
-$black: #7e7e7e !default;
-$pink: #e27b72 !default;
-$green: #1db6b8 !default;
-$orange: #e8950a !default;
-$red: #e63d00 !default;
-$dark: #505050 !default;
+@import "ButtonColors";
 
 @mixin text($color) {
   background-color: $color;
@@ -17,10 +11,15 @@ $dark: #505050 !default;
   background-color: lighten($color, 4%);
 }
 
-.buttonsWrapper {
+.wrapper {
   flex: 1;
   flex-direction: row;
   flex-wrap: wrap;
+}
+
+.color {
+  width: 6px;
+  height: 6px;
 }
 
 .buttonWrapper {
@@ -61,15 +60,6 @@ $dark: #505050 !default;
   font-size: 16px;
   color: #fff;
 }
-
-$colors-map: (
-  Green $green,
-  Pink $pink,
-  Orange $orange,
-  Dark $dark,
-  Red $red,
-  Black $black
-);
 
 @each $color in $colors-map {
   .button#{nth($color, 1)} {
