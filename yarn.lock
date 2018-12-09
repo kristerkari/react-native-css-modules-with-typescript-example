@@ -2712,9 +2712,9 @@ css-selector-tokenizer@^0.7.0:
     regexpu-core "^1.0.0"
 
 css-to-react-native-transform@^1.7.0:
-  version "1.7.1"
-  resolved "https://registry.yarnpkg.com/css-to-react-native-transform/-/css-to-react-native-transform-1.7.1.tgz#eb428cad0594ab94f91386f64912576c85d18825"
-  integrity sha512-SsLvX/nGe1F/4UTpZBzUm9sLj5JMcDTjf0r80sh+XmyPrVybRjurANjzi6mDD1/JYF21vdX1GbMBLXA3ctiSQg==
+  version "1.8.0"
+  resolved "https://registry.yarnpkg.com/css-to-react-native-transform/-/css-to-react-native-transform-1.8.0.tgz#e3e5811f42e6caa6ef60aace0b71dce583fb8c15"
+  integrity sha512-1EVcu6txVHDyQ8ZTkOOjB1xyKH1Kt/e+5mUmHO6CwLKd8hysYYy5cPesxpv10xIOjx2ewew8tCd4fO4ESUtgvg==
   dependencies:
     css "^2.2.4"
     css-mediaquery "^0.1.2"
