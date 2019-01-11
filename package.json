@@ -33,7 +33,7 @@
     "autoprefixer": "^9.4.4",
     "babel-jest": "23.6.0",
     "babel-loader": "^8.0.5",
-    "babel-plugin-react-native-classname-to-style": "^1.2.1",
+    "babel-plugin-react-native-classname-to-style": "^1.2.2",
     "babel-plugin-react-native-platform-specific-extensions": "^1.1.1",
     "babel-preset-react": "^7.0.0-beta.3",
     "css-loader": "^1.0.1",
