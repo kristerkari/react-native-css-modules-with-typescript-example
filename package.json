@@ -28,7 +28,7 @@
     "@types/jest": "^23.3.12",
     "@types/prop-types": "^15.5.8",
     "@types/react-fontawesome": "^1.6.4",
-    "@types/react-native": "kristerkari/react-native-types-for-css-modules#v0.57.27",
+    "@types/react-native": "kristerkari/react-native-types-for-css-modules#v0.57.29",
     "@types/react-test-renderer": "^16.0.3",
     "autoprefixer": "^9.4.4",
     "babel-jest": "23.6.0",
