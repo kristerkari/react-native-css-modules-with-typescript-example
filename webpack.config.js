@@ -4,6 +4,7 @@ const path = require("path");
 var babelLoader = {
   loader: "babel-loader",
   query: {
+    configFile: false,
     babelrc: false,
     presets: ["@babel/env", "react", "module:metro-react-native-babel-preset"],
     plugins: ["react-hot-loader/babel"]
