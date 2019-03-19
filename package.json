@@ -25,6 +25,7 @@
   "devDependencies": {
     "@babel/core": "^7.4.0",
     "@babel/preset-env": "^7.4.0",
+    "@teamthread/strict-css-modules-loader": "^0.0.3",
     "@types/jest": "^24.0.11",
     "@types/prop-types": "^15.7.0",
     "@types/react-fontawesome": "^1.6.4",
