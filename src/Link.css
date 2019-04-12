@@ -1,11 +1,16 @@
+:root {
+  --text-color: #212529;
+  --link-color: blue;
+}
+
 .description {
   margin-bottom: 12px;
 }
 
 .descriptionText {
-  color: #212529;
+  color: var(--text-color);
 }
 
 .descriptionLink {
-  color: blue;
+  color: var(--link-color);
 }

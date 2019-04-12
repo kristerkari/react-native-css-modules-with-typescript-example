@@ -1,5 +1,6 @@
 const webpack = require("webpack");
 const path = require("path");
+const autoprefixer = require("autoprefixer");
 
 var babelLoader = {
   loader: "babel-loader",
@@ -70,7 +71,10 @@ module.exports = {
             }
           },
           {
-            loader: "postcss-loader"
+            loader: "postcss-loader",
+            options: {
+              plugins: () => [autoprefixer()]
+            }
           }
         ]
       },
@@ -93,7 +97,10 @@ module.exports = {
             }
           },
           {
-            loader: "postcss-loader"
+            loader: "postcss-loader",
+            options: {
+              plugins: () => [autoprefixer()]
+            }
           },
           {
             loader: "sass-loader"
