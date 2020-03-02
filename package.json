@@ -9,7 +9,8 @@
     "lint": "eslint . && stylelint 'src/**/*.@(css|scss)'",
     "web": "webpack-dev-server --mode development",
     "ios": "react-native run-ios",
-    "android": "react-native run-android"
+    "android": "react-native run-android",
+    "postinstall": "patch-package"
   },
   "dependencies": {
     "es6-shim": "^0.35.5",
@@ -19,13 +20,13 @@
     "react-fontawesome": "^1.6.1",
     "react-native": "0.59.8",
     "react-native-fontawesome": "5.7.0",
-    "react-native-web": "^0.10.0",
+    "react-native-web": "^0.12.2",
     "tslib": "^1.9.3"
   },
   "devDependencies": {
     "@babel/core": "^7.4.4",
-    "@babel/runtime": "^7.4.4",
     "@babel/preset-env": "^7.4.4",
+    "@babel/runtime": "^7.4.4",
     "@teamthread/strict-css-modules-loader": "^0.0.3",
     "@types/jest": "^24.0.13",
     "@types/prop-types": "^15.7.1",
@@ -47,6 +48,7 @@
     "jest-cli": "^24.8.0",
     "metro-react-native-babel-preset": "^0.54.1",
     "node-sass": "^4.12.0",
+    "patch-package": "^6.2.1",
     "postcss": "^7.0.16",
     "postcss-css-variables": "^0.12.0",
     "postcss-loader": "^3.0.0",
