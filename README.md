@@ -55,8 +55,16 @@ cd react-native-css-modules-with-typescript-example
 
 ### Step 3: Install example app's dependencies
 
+NodeJS packages:
+
 ```sh
-npm install
+yarn install
+```
+
+and CocoaPods for iOS:
+
+```sh
+cd ios && pod install
 ```
 
 ### Step 4: Run React Native packager
@@ -64,7 +72,7 @@ npm install
 You can open a new terminal tab to run React Native's packager.
 
 ```sh
-npm start
+yarn start
 ```
 
 ### Step 5: Run app on Android, iOS or Web
@@ -72,28 +80,22 @@ npm start
 First make sure that your Android emulator or iOS simulator is working, then:
 
 ```sh
-npm run ios
+yarn ios
 ```
 
 or
 
 ```sh
-npm run android
+yarn android
 ```
 
 or
 
 ```sh
-npm run web
+yarn web
 ```
 
 Web app can be accessed by opening `http://localhost:8080` in a browser.
-
-or if you use Yarn:
-
-```sh
-yarn ios
-```
 
 ## Screenshots
 
