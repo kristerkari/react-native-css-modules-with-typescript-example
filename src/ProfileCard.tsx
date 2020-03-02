@@ -1,8 +1,8 @@
-import * as React from "react";
-import { Image, Text, View } from "react-native";
-import avatar from "./images/avatar.png";
-import bg from "./images/iceland.jpg";
-import styles from "./ProfileCard.css";
+import * as React from 'react';
+import {Image, Text, View} from 'react-native';
+import avatar from './images/avatar.png';
+import bg from './images/iceland.jpg';
+import styles from './ProfileCard.css';
 
 export const ProfileCard = () => {
   return (
@@ -28,8 +28,7 @@ export const ProfileCard = () => {
             <View className={styles.statsLeft}>
               <Text className={styles.statsText}>Friends</Text>
               <Text
-                className={[styles.statsText, styles.statsTextBold].join(" ")}
-              >
+                className={[styles.statsText, styles.statsTextBold].join(' ')}>
                 12M
               </Text>
             </View>

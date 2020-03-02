@@ -1,17 +1,17 @@
-import * as React from "react";
-import { Text, TouchableHighlight, View } from "react-native";
-import styles from "./Buttons.scss";
-import { FontAwesome } from "./FontAwesome";
-import { titleCase } from "./utils/titleCase";
-import btnColors from "./_ButtonColors.scss";
+import * as React from 'react';
+import {Text, TouchableHighlight, View} from 'react-native';
+import styles from './Buttons.scss';
+import {FontAwesome} from './FontAwesome';
+import {titleCase} from './utils/titleCase';
+import btnColors from './_ButtonColors.scss';
 
-const colors = ["green", "pink", "dark", "orange", "red", "black"];
-const stylesIndexSignature: { [index: string]: string } = styles;
-const btnColorssIndexSignature: { [index: string]: string } = btnColors;
+const colors = ['green', 'pink', 'dark', 'orange', 'red', 'black'];
+const stylesIndexSignature: {[index: string]: string} = styles;
+const btnColorssIndexSignature: {[index: string]: string} = btnColors;
 
 const Button = (color: string, index: number) => {
-  const button = "button" + titleCase(color);
-  const icon = "icon" + titleCase(color);
+  const button = 'button' + titleCase(color);
+  const icon = 'icon' + titleCase(color);
   return (
     <View className={styles.buttonWrapper} key={index}>
       <TouchableHighlight className={stylesIndexSignature[button]}>
@@ -32,7 +32,7 @@ const Color = (color: string, index: number) => {
   return (
     <View
       className={styles.color}
-      style={{ backgroundColor: btnColorssIndexSignature[color] }}
+      style={{backgroundColor: btnColorssIndexSignature[color]}}
       key={index}
     />
   );

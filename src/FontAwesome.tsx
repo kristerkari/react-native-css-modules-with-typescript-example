@@ -1,5 +1,5 @@
-import * as React from "react";
-import Fa from "react-fontawesome";
+import * as React from 'react';
+import Fa from 'react-fontawesome';
 
 interface FontAwesomeProps {
   name: string;
