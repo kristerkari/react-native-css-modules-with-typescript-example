@@ -1616,9 +1616,9 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react-native@kristerkari/react-native-types-for-css-modules#v0.61.17":
-  version "0.61.17"
-  resolved "https://codeload.github.com/kristerkari/react-native-types-for-css-modules/tar.gz/3e84bb1d0728d2ec90dfe8f74bc5fb314ed83e6f"
+"@types/react-native@kristerkari/react-native-types-for-css-modules#v0.63.52":
+  version "0.63.52"
+  resolved "https://codeload.github.com/kristerkari/react-native-types-for-css-modules/tar.gz/273d1bbcf3618c0f02937a9e593653ffb66a8ace"
   dependencies:
     "@types/react" "*"
 
@@ -1630,12 +1630,18 @@
     "@types/react" "*"
 
 "@types/react@*":
-  version "16.9.23"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.9.23.tgz#1a66c6d468ba11a8943ad958a8cb3e737568271c"
-  integrity sha512-SsGVT4E7L2wLN3tPYLiF20hmZTPGuzaayVunfgXzUn1x4uHVsKH6QDJQ/TdpHqwsTLd4CwrmQ2vOgxN7gE24gw==
+  version "16.14.11"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.14.11.tgz#992a0cd4b66b9f27315042b5d96e976717368f04"
+  integrity sha512-Don0MtsZZ3fjwTJ2BsoqkyOy7e176KplEAKOpr/4XDdzinlyJBn9yfsKn5mcSgn4kh1B22+3tBnzBC1z63ybtQ==
   dependencies:
     "@types/prop-types" "*"
-    csstype "^2.2.0"
+    "@types/scheduler" "*"
+    csstype "^3.0.2"
+
+"@types/scheduler@*":
+  version "0.16.2"
+  resolved "https://registry.yarnpkg.com/@types/scheduler/-/scheduler-0.16.2.tgz#1a62f89525723dde24ba1b01b092bf5df8ad4d39"
+  integrity sha512-hppQEBDmlwhFAXKJX2KnWLYu5yMfi91yazPb2l+lbJiwW+wdo1gNeRA+3RgNSO39WYX2euey41KEwnqesU2Jew==
 
 "@types/stack-utils@^1.0.1":
   version "1.0.1"
@@ -3686,10 +3692,10 @@ cssstyle@^2.0.0:
   dependencies:
     cssom "~0.3.6"
 
-csstype@^2.2.0:
-  version "2.6.17"
-  resolved "https://registry.yarnpkg.com/csstype/-/csstype-2.6.17.tgz#4cf30eb87e1d1a005d8b6510f95292413f6a1c0e"
-  integrity sha512-u1wmTI1jJGzCJzWndZo8mk4wnPTZd1eOIYTYvuEyOQGfmDl3TrabCCfKnOC86FZwW/9djqTl933UF/cS425i9A==
+csstype@^3.0.2:
+  version "3.0.8"
+  resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.0.8.tgz#d2266a792729fb227cd216fb572f43728e1ad340"
+  integrity sha512-jXKhWqXPmlUeoQnF/EhTtTl4C9SnrxSH/jZUih3jmO6lBKr99rP3/+FmrMj4EFpOXzMtXHAZkd3x0E6h6Fgflw==
 
 currently-unhandled@^0.4.1:
   version "0.4.1"
