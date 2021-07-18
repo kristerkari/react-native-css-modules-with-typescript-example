@@ -61,12 +61,21 @@ module.exports = {
             loader: 'style-loader',
           },
           {
-            loader: 'typings-for-css-modules-loader',
+            loader: 'dts-css-modules-loader',
             options: {
               namedExport: true,
               camelCase: true,
               modules: true,
               localIdentName: '[path]___[name]__[local]___[hash:base64:5]',
+            },
+          },
+          {
+            loader: 'css-loader',
+            options: {
+              modules: {
+                exportLocalsConvention: 'camelCaseOnly',
+                localIdentName: '[path]___[name]__[local]___[hash:base64:5]',
+              },
             },
           },
           {
@@ -87,12 +96,21 @@ module.exports = {
             loader: 'style-loader',
           },
           {
-            loader: 'typings-for-css-modules-loader',
+            loader: 'dts-css-modules-loader',
             options: {
               namedExport: true,
               camelCase: true,
               modules: true,
               localIdentName: '[path]___[name]__[local]___[hash:base64:5]',
+            },
+          },
+          {
+            loader: 'css-loader',
+            options: {
+              modules: {
+                exportLocalsConvention: 'camelCaseOnly',
+                localIdentName: '[path]___[name]__[local]___[hash:base64:5]',
+              },
             },
           },
           {
