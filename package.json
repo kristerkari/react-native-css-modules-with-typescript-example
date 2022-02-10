@@ -50,7 +50,7 @@
     "jest": "^25.1.0",
     "jest-cli": "^25.1.0",
     "metro-react-native-babel-preset": "^0.59.0",
-    "node-sass": "^4.14.1",
+    "node-sass": "^7.0.0",
     "patch-package": "^6.2.1",
     "postcss": "^8.3.5",
     "postcss-css-variables": "^0.18.0",
