@@ -7,12 +7,12 @@ $red: #e63d00 !default;
 $dark: #505050 !default;
 
 $colors-map: (
-  Green $green,
-  Pink $pink,
-  Orange $orange,
-  Dark $dark,
-  Red $red,
-  Black $black
+  'Green' $green,
+  'Pink' $pink,
+  'Orange' $orange,
+  'Dark' $dark,
+  'Red' $red,
+  'Black' $black
 );
 
 :export {
