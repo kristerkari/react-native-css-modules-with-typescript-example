@@ -3,7 +3,7 @@
 exports[`renders correctly 1`] = `
 <RCTSafeAreaView
   style={
-    Object {
+    {
       "flex": 1,
     }
   }
@@ -37,7 +37,7 @@ exports[`renders correctly 1`] = `
           <Image
             resizeMode="cover"
             source={
-              Object {
+              {
                 "testUri": "../../../src/images/iceland.jpg",
               }
             }
@@ -48,7 +48,7 @@ exports[`renders correctly 1`] = `
           >
             <Image
               source={
-                Object {
+                {
                   "testUri": "../../../src/images/avatar.png",
                 }
               }
@@ -85,7 +85,7 @@ exports[`renders correctly 1`] = `
                 </Text>
                 <Text
                   style={
-                    Array [
+                    [
                       "statsText",
                       "statsTextBold",
                     ]
@@ -104,7 +104,7 @@ exports[`renders correctly 1`] = `
                 </Text>
                 <Text
                   style={
-                    Array [
+                    [
                       "statsText",
                       "statsTextBold",
                     ]
@@ -134,14 +134,23 @@ exports[`renders correctly 1`] = `
         </Text>
       </View>
       <View
-        style="buttonsWrapper"
+        style="wrapper"
       >
         <View
           style="buttonWrapper"
         >
           <View
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
             accessible={true}
-            isTVSelectable={true}
+            focusable={false}
+            onClick={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
@@ -162,12 +171,12 @@ exports[`renders correctly 1`] = `
                   <Text>
                     <Text
                       style={
-                        Array [
-                          Object {
+                        [
+                          {
                             "backgroundColor": "transparent",
                             "fontFamily": "FontAwesome",
                           },
-                          Object {
+                          {
                             "color": undefined,
                           },
                           undefined,
@@ -191,8 +200,17 @@ exports[`renders correctly 1`] = `
           style="buttonWrapper"
         >
           <View
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
             accessible={true}
-            isTVSelectable={true}
+            focusable={false}
+            onClick={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
@@ -213,12 +231,12 @@ exports[`renders correctly 1`] = `
                   <Text>
                     <Text
                       style={
-                        Array [
-                          Object {
+                        [
+                          {
                             "backgroundColor": "transparent",
                             "fontFamily": "FontAwesome",
                           },
-                          Object {
+                          {
                             "color": undefined,
                           },
                           undefined,
@@ -242,8 +260,17 @@ exports[`renders correctly 1`] = `
           style="buttonWrapper"
         >
           <View
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
             accessible={true}
-            isTVSelectable={true}
+            focusable={false}
+            onClick={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
@@ -264,12 +291,12 @@ exports[`renders correctly 1`] = `
                   <Text>
                     <Text
                       style={
-                        Array [
-                          Object {
+                        [
+                          {
                             "backgroundColor": "transparent",
                             "fontFamily": "FontAwesome",
                           },
-                          Object {
+                          {
                             "color": undefined,
                           },
                           undefined,
@@ -293,8 +320,17 @@ exports[`renders correctly 1`] = `
           style="buttonWrapper"
         >
           <View
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
             accessible={true}
-            isTVSelectable={true}
+            focusable={false}
+            onClick={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
@@ -315,12 +351,12 @@ exports[`renders correctly 1`] = `
                   <Text>
                     <Text
                       style={
-                        Array [
-                          Object {
+                        [
+                          {
                             "backgroundColor": "transparent",
                             "fontFamily": "FontAwesome",
                           },
-                          Object {
+                          {
                             "color": undefined,
                           },
                           undefined,
@@ -344,8 +380,17 @@ exports[`renders correctly 1`] = `
           style="buttonWrapper"
         >
           <View
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
             accessible={true}
-            isTVSelectable={true}
+            focusable={false}
+            onClick={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
@@ -366,12 +411,12 @@ exports[`renders correctly 1`] = `
                   <Text>
                     <Text
                       style={
-                        Array [
-                          Object {
+                        [
+                          {
                             "backgroundColor": "transparent",
                             "fontFamily": "FontAwesome",
                           },
-                          Object {
+                          {
                             "color": undefined,
                           },
                           undefined,
@@ -395,8 +440,17 @@ exports[`renders correctly 1`] = `
           style="buttonWrapper"
         >
           <View
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
             accessible={true}
-            isTVSelectable={true}
+            focusable={false}
+            onClick={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
@@ -417,12 +471,12 @@ exports[`renders correctly 1`] = `
                   <Text>
                     <Text
                       style={
-                        Array [
-                          Object {
+                        [
+                          {
                             "backgroundColor": "transparent",
                             "fontFamily": "FontAwesome",
                           },
-                          Object {
+                          {
                             "color": undefined,
                           },
                           undefined,
@@ -442,6 +496,70 @@ exports[`renders correctly 1`] = `
             </View>
           </View>
         </View>
+      </View>
+      <View
+        style="wrapper"
+      >
+        <View
+          style={
+            [
+              "color",
+              {
+                "backgroundColor": "green",
+              },
+            ]
+          }
+        />
+        <View
+          style={
+            [
+              "color",
+              {
+                "backgroundColor": "pink",
+              },
+            ]
+          }
+        />
+        <View
+          style={
+            [
+              "color",
+              {
+                "backgroundColor": "dark",
+              },
+            ]
+          }
+        />
+        <View
+          style={
+            [
+              "color",
+              {
+                "backgroundColor": "orange",
+              },
+            ]
+          }
+        />
+        <View
+          style={
+            [
+              "color",
+              {
+                "backgroundColor": "red",
+              },
+            ]
+          }
+        />
+        <View
+          style={
+            [
+              "color",
+              {
+                "backgroundColor": "black",
+              },
+            ]
+          }
+        />
       </View>
     </View>
   </RCTScrollView>

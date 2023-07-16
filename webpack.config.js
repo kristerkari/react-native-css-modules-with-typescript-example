@@ -1,9 +1,10 @@
-const webpack = require('webpack');
 const autoprefixer = require('autoprefixer');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 var babelLoader = {
   loader: 'babel-loader',
-  query: {
+  options: {
     configFile: false,
     babelrc: false,
     presets: ['@babel/env', 'react', 'module:metro-react-native-babel-preset'],
@@ -14,11 +15,14 @@ var babelLoader = {
 module.exports = {
   entry: ['./polyfills', 'react-hot-loader/patch', './index.web.js'],
   devServer: {
+    static: './',
     hot: true,
   },
   plugins: [
-    new webpack.NamedModulesPlugin(),
-    new webpack.HotModuleReplacementPlugin(),
+    new HtmlWebpackPlugin({
+      template: 'index.html',
+    }),
+    new MiniCssExtractPlugin(),
   ],
   module: {
     rules: [
@@ -31,6 +35,7 @@ module.exports = {
             loader: 'ts-loader',
             options: {
               compilerOptions: {
+                noEmit: false,
                 target: 'es5',
               },
             },
@@ -55,10 +60,7 @@ module.exports = {
         test: /\.css$/,
         use: [
           {
-            loader: '@teamthread/strict-css-modules-loader',
-          },
-          {
-            loader: 'style-loader',
+            loader: MiniCssExtractPlugin.loader,
           },
           {
             loader: 'dts-css-modules-loader',
@@ -81,7 +83,9 @@ module.exports = {
           {
             loader: 'postcss-loader',
             options: {
-              plugins: () => [autoprefixer()],
+              postcssOptions: {
+                plugins: [autoprefixer()],
+              },
             },
           },
         ],
@@ -90,10 +94,7 @@ module.exports = {
         test: /\.scss$/,
         use: [
           {
-            loader: '@teamthread/strict-css-modules-loader',
-          },
-          {
-            loader: 'style-loader',
+            loader: MiniCssExtractPlugin.loader,
           },
           {
             loader: 'dts-css-modules-loader',
@@ -116,7 +117,9 @@ module.exports = {
           {
             loader: 'postcss-loader',
             options: {
-              plugins: () => [autoprefixer()],
+              postcssOptions: {
+                plugins: [autoprefixer()],
+              },
             },
           },
           {
